@@ -1,0 +1,48 @@
+.infoWrapper{
+    padding: 6.0rem 4.0rem;
+    border-radius: 8px;   
+    border: 1px solid #d2d2d2;
+}
+.headerTextWrapper {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+.headerTextWrapper p{
+    font-size:3.0rem;
+    margin-right: 10px;
+    font-weight: bold;
+}
+.noteText{
+    color: #777777;
+    font-size: 2.0rem;
+}
+
+.inputWrapper{
+    width: 455px;
+    height:50px;
+    margin-top: 20px;
+    position: relative;
+}
+
+
+.inputWrapper input{
+    width: 100%;
+    height: 100%;
+    border: 2px solid #b1afae;
+    border-radius: 8px;
+    padding: 0 20px;
+    font-size: 2.0rem;
+}
+
+.inputWrapper input::placeholder{
+    color: #b1afae;
+}
+
+
+.inputWrapper img{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+}

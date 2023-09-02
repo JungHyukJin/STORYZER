@@ -1,0 +1,92 @@
+.progressBarContainer{
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+}
+
+.progressBarWrapper{
+    padding: 4.0rem;
+    border-radius: 8px;   
+    border: 1px solid #d2d2d2;
+    margin-bottom: 20px;
+}
+
+.headerText{
+    font-size: 2.4rem;
+    font-weight: bold;
+}
+
+.titleText{
+    font-size: 2.0rem;
+    color: #B1AFAE;
+}
+
+.step{
+    font-size: 2.2rem;
+    color: #B1AFAE;
+    border-radius: 50%;
+    border: 2px solid #B1AFAE;
+    min-width: 4.0rem;
+    min-height: 4.0rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+.row_1{
+    margin-top: 30px;
+    display: flex;
+}
+
+.row_2,
+.row_3{
+    margin-top: 40px;
+    display: flex;
+}
+
+.row_1 .bar, .row_2 .bar{
+    width: 31%;
+}
+
+.bar{
+    width: 100%;
+    height: 4px;
+    background-color: #B1AFAE;
+    margin-top: 8px;
+    border-radius: 8px;
+}
+
+.barContainer{
+    width: 100%;
+}
+
+.barWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btnWrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btnWrapper button{
+    width: 153px;
+    height:39px;
+    border: none;
+    border-radius:6px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: #000000;
+    color: #fff;
+}
+
+.btnWrapper button:disabled{
+    cursor: default;
+    background-color: #fff;
+    border: 1px solid #d2d2d2;
+    color: #d2d2d2;
+}

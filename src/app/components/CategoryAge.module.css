@@ -1,0 +1,43 @@
+.infoWrapper{
+    padding: 6.0rem 4.0rem;
+    border-radius: 8px;   
+    border: 1px solid #d2d2d2;
+}
+.headerTextWrapper {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+.headerTextWrapper p{
+    font-size:3.0rem;
+    margin-right: 10px;
+    font-weight: bold;
+}
+.noteText{
+    color: #777777;
+    font-size: 2.0rem;
+}
+.genreList{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    border: 1px solid #b1afae;
+    border-radius: 8px;
+    min-width: 130px;
+    min-height: 148px;
+    font-size: 2.0rem;
+    color: #b1afae;
+    cursor: pointer;
+}
+
+.active{
+    border:1px solid #185CF9;
+    color: #185CF9;
+}

@@ -1,0 +1,85 @@
+.infoWrapper{
+    padding: 6.0rem 4.0rem;
+    border-radius: 8px;   
+    border: 1px solid #d2d2d2;
+}
+
+.headerTextWrapper {
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.headerTextWrapper p{
+    font-size:3.0rem;
+    margin-right: 10px;
+    font-weight: bold;
+}
+.inputTitle{
+    font-size: 1.6rem;
+    color: #B1AFAE;
+    margin-bottom: 5px;
+}
+
+.inputWrapper input{
+    font-size: 2.0rem;
+    height: 50px;
+    width: 100%; 
+    border-radius: 6px;
+    border: 2px solid #b1afae;
+    padding: 0 20px;
+}
+
+.inputWrapper input::placeholder{
+    color: #B1AFAE;
+}
+
+.row_1{
+    margin-bottom: 30px;
+}
+
+.row_2{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.selectWrapper,
+.budgetWrapper{ 
+    width: 100%;
+}
+.selectWrapper select{
+    border-radius: 6px;
+    font-size: 2.0rem;
+    height: 50px;
+    color: #b1afae;
+    border: 2px solid #b1afae;
+    width: 100%;
+    -o-appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding: 0 20px;
+}
+
+.option{
+    font-size: 2.0rem;
+    color: #B1AFAE;
+    border: 1px solid #b1afae;
+    border-radius: 6px;
+}
+
+.selectWrapper{
+    position: relative;
+}
+
+.downBtnIcon{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.selectWrapper .isSelected{
+    color: #000000;
+}

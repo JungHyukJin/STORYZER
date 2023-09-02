@@ -1,0 +1,58 @@
+.header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: #ffffff;
+    z-index: 9999;
+}
+.nav {
+    height: 64px;
+    max-width: 1920px;
+    width: 100%;
+    padding: 16px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    word-break: keep-all;
+    margin: 0 auto;
+}
+
+.nav>div{
+    display: flex;
+    align-items: center;
+}
+
+.nav a{
+    font-size: 1.6rem;
+    text-decoration:none;
+    outline: none;
+    display: flex;
+}
+
+.nav a:hover{
+    font-weight: bold;
+}
+
+.nav div:first-child a:nth-child(2){
+    margin-left: 67px;
+    margin-right: 36px;
+}
+
+.loginBtn{
+    min-width: 110px;
+    height:32px;
+    background-color: #000000;
+    margin-left: 40px;
+    color: #ffffff;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.divider{
+    min-width: 2px;
+    background-color: #d9d9d9;
+    height: 16px; 
+    margin: 0 26px;
+}

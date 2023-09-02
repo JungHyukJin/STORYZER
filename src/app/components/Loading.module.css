@@ -1,0 +1,53 @@
+.loadingBg{
+    width: 100%;
+    height: 100vh;
+    background-image: url('/loadingModalBg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 999999;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.loadingBg p{
+    font-size: 5.0rem;
+    margin-bottom: 100px;
+}
+
+/* 로딩 */
+.race-by {
+    position: absolute;
+    height: var(--uib-line-weight);
+    width: var(--uib-size);
+    border-radius: calc(var(--uib-line-weight) / 2);
+    transform: translate3d(0, 0, 0);
+    top: 50%;
+  }
+  
+  .race-by::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: var(--uib-color);
+    opacity: 0.1;
+  }
+  
+  .race-by::after {
+    content: '';
+    height: 100%;
+    width: 100%;
+    border-radius: calc(var(--uib-line-weight) / 2);
+    animation: raceBy var(--uib-speed) ease-in-out infinite;
+    transform: translateX(-100%);
+    background-color: var(--uib-color);
+  }

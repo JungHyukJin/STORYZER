@@ -1,0 +1,98 @@
+.loginContainer{
+    background-image: linear-gradient(to right, #DEDDF7, #B1E7F8);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginForm{
+    place-items: center;
+    background-color: #FFFFFF;
+    width: 100%;
+    max-width: 474px;
+    border-radius: 8px;
+    padding: 7.0rem 5.0rem;
+    font-size: 1.6rem;
+    box-shadow: 2px 2px 10px 4px #b1afae;
+}
+
+.loginForm .headText{
+    font-size: 3.0rem;
+    font-weight: bold;
+}
+.loginForm .subText{
+    font-size: 2.0rem;
+    color: #777777;
+    margin: 12px 0 43px;
+}
+
+.inputId input, .inputPw input{
+    width: 100%;
+    height: 50px;
+    padding: 0 20px;
+    border-radius: 8px;
+    border: 2px solid #b1afae;
+    background-color: #FFFFFF;
+    font-size: 1.6rem;
+}
+
+.inputId input::placeholder,
+.inputPw input::placeholder{
+    color: #b1afae;
+    font-size: 1.6rem;
+}
+
+.inputPw{
+    position: relative;
+    margin: 10px 0;
+}
+
+.inputPw img{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    cursor: pointer;
+    transform: translateY(-50%);
+}
+
+.loginBtn{
+    margin: 45px 0 10px;
+    border: none;
+    background-color: #000000;
+    cursor: pointer;
+    color: #fff;
+}
+
+.googleLoginBtn{
+    background-color: #fff;
+    border: 1px solid #d2d2d2;
+    opacity: 0.5;
+}
+
+.loginBtn, .googleLoginBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 2.0rem;
+    border-radius: 8px;
+    padding: 10px 0;
+}
+
+.redirectWrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.redirectWrapper p{
+    font-size: 1.4rem;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.redirectWrapper p:hover{
+    color: blue;
+}

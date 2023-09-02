@@ -1,0 +1,187 @@
+/* 글로벌 스타일 */
+
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Pretendard-Regular';
+    color: #000000;
+    font-size: 10px;
+}
+
+body .contents{
+    max-width: 1400px;
+    margin: 64px auto;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    font-size: 1.6rem;
+}
+
+.pageLoadEffect {
+    animation: fadein 2s;
+    -moz-animation: fadein 2s;
+    -webkit-animation: fadein 2s;
+    -o-animation: fadein 2s;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+  
+  @keyframes raceBy {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(100%);
+    }
+  }
+/* 로딩 */
+
+/* 장르 선택 이미지 */
+.genreSelected p{
+    color: #185CF9;
+}
+.genreBtn#Romance img{
+    content: url('/genre_img/romance_icon.png')
+}
+.genreBtn.genreSelected#Romance img{
+    content: url('/genre_img/romance_checked_icon.png')
+}
+.genreBtn#Horror img{
+    content: url('/genre_img/horror_icon.png')
+}
+.genreBtn.genreSelected#Horror img{
+    content: url('/genre_img/horror_checked_icon.png')
+}
+.genreBtn#Science_Fiction img{
+    content: url('/genre_img/sf_icon.png')
+}
+.genreBtn.genreSelected#Science_Fiction img{
+    content: url('/genre_img/sf_checked_icon.png')
+}
+.genreBtn#Thriller img{
+    content: url('/genre_img/action_icon.png')
+}
+.genreBtn.genreSelected#Thriller img{
+    content: url('/genre_img/action_checked_icon.png')
+}
+.genreBtn#Comedy img{
+    content: url('/genre_img/comedy_icon.png')
+}
+.genreBtn.genreSelected#Comedy img{
+    content: url('/genre_img/comedy_checked_icon.png')
+}
+.genreBtn#Documentary img{
+    content: url('/genre_img/documentary_icon.png')
+}
+.genreBtn.genreSelected#Documentary img{
+    content: url('/genre_img/documentary_checked_icon.png')
+}
+.genreBtn#Fantasy img{
+    content: url('/genre_img/fantasy_icon.png')
+}
+.genreBtn.genreSelected#Fantasy img{
+    content: url('/genre_img/fantasy_checked_icon.png')
+}
+.genreBtn#Animation img{
+    content: url('/genre_img/anime_icon.png')
+}
+.genreBtn.genreSelected#Animation img{
+    content: url('/genre_img/anime_checked_icon.png')
+}
+.genreBtn#Mystery img{
+    content: url('/genre_img/mystery_icon.png')
+}
+.genreBtn.genreSelected#Mystery img{
+    content: url('/genre_img/mystery_checked_icon.png')
+}
+.genreBtn#Adventure img{
+    content: url('/genre_img/adventure_icon.png')
+}
+.genreBtn.genreSelected#Adventure img{
+    content: url('/genre_img/adventure_checked_icon.png')
+}
+.genreBtn#Family img{
+    content: url('/genre_img/family_icon.png')
+}
+.genreBtn.genreSelected#Family img{
+    content: url('/genre_img/family_checked_icon.png')
+}
+.genreBtn#War img{
+    content: url('/genre_img/war_icon.png')
+}
+.genreBtn.genreSelected#War img{
+    content: url('/genre_img/war_checked_icon.png')
+}
+
+.movie{
+    background-color: #5C8AFF;
+}
+.novel{
+    background-color: #22D4AA;
+}
+.webToon{
+    background-color: #8438FF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 홈화면 진입 시 애니메이션 효과 */
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
