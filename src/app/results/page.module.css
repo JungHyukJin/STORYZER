@@ -32,10 +32,13 @@
 .resultHistory{
     display: flex;
     gap: 22px;
+    overflow-x: scroll;
 }
 
 .list{
-    max-width: 326px;
+    min-width: 300px;
+    max-width: 325px;
+    width: 100%;
     min-height: 166px;
     border: 1px solid #d2d2d2;
     border-radius:8px;    
@@ -158,18 +161,6 @@
 
 }
 
-.keywordTitleText{
-    font-size: 3.0rem;
-    font-weight: bold;
-    margin-bottom: 26px;
-    line-height: 1.4;
-}
-.keywordDescText{
-    font-size: 1.8rem;
-    line-height: 1.4;
-    color: rgba(0, 0, 0, 0.6)
-
-}
 
 .typeBoxWrapper{
     display: flex;
@@ -239,99 +230,20 @@
     border-radius: 4px;
     margin-bottom: 15px;
 }
-.keywordWrapper{
+.predictionSection{
     display: grid;
     place-items: center;
     grid-template-columns: 1fr 1fr;
     min-height: 270px;
 }
 
-.keywordGraph{
-    position: relative;
-    width: 100%;
-    height: 100%;
-}
-
-.keywordGraph .circle{
-    border-radius: 50%;
-    border: 1px solid #185CF9;
-    background-color: #EBF3FF;
-    position: absolute;
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    color: #185CF9;
-    font-weight: bold;
-}
-.keywordGraph .circle:nth-child(1){
-    width: 150px;
-    height: 150px;
-    font-size: 2.5rem;
-    bottom: 4%;
-    left: 34%;
-}
-.keywordGraph .circle:nth-child(2){
-    width: 100px;
-    height: 100px;
-    font-size: 2.0rem;
-    top: 2%;
-    right: 29%;
-}
-.keywordGraph .circle:nth-child(3){
-    width: 100px;
-    height: 100px;
-    font-size: 2.0rem;
-    top: 70%;
-    right: 12%;
-}
-.keywordGraph .circle:nth-child(4){
-    width: 100px;
-    height: 100px;
-    font-size: 2.0rem;
-    top: 35%;
-    left: 12%;
-}
-.keywordGraph .circle:nth-child(5){
-    width: 65px;
-    height: 65px;
-    font-size: 1.5rem;
-    top: 1%;
-    left: 15%;
-}
-.keywordGraph .circle:nth-child(6){
-    width: 65px;
-    height: 65px;
-    font-size: 1.5rem;
-    top: 76%;
-    left: 20%;
-}
-.keywordGraph .circle:nth-child(7){
-    width: 65px;
-    height: 65px;
-    font-size: 1.5rem;
-    top: 14%;
-    left: 31%;
-
-}
-.keywordGraph .circle:nth-child(8){
-    width: 65px;
-    height: 65px;
-    font-size: 1.5rem;
-    top: 42%;
-    right: 19%;
-}
-.keywordGraph .circle:nth-child(9){
-    width: 65px;
-    height: 65px;
-    font-size: 1.5rem;
-    top: 7%;
-    right: 12%;
-}
 .analyzeTextWrapper{
     padding: 30px;
     border: 1px solid #d2d2d2;
     background-color: #f4f4f5;
     border-radius: 8px;
+    max-height: 310px;
+    overflow-y: scroll;
 }
 .analyzeText{
     font-size: 1.8rem;
