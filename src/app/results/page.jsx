@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import styles from "./page.module.css";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import KeywordSuggest from "../components/predictionSection/keywordSuggest";
+import KeywordSuggest from "../components/predictionSection/KeywordSuggest";
 import VoteAverage from "../components/predictionSection/VoteAverage";
 import PredictRevenue from "../components/predictionSection/PredictRevenue";
 
