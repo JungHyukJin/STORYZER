@@ -1,34 +1,44 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# STORYZER 
+## 목적 : 
+- 스토라이저(Storyzer)는 '*Story*' + '*Analyze*'의 합성어로써 영화, 드라마, 웹툰 등 여러 분야의 시나리오를 분석하고 AI 기술을 통해 잠재적 인기 요소를 예측하는 서비스입니다. 예측 데이터를 기반으로 사용자가 완성도 있는 시나리오를 제작할 수 있도록 피드백을 제공할 뿐만 아니라 성공 확률을 높이기 위한 프로모션, 시나리오 개선 방향 등 다양한 전략 수립 솔루션을 제공합니다.
 
-## Getting Started
+## 개발 기간 :
+- 2023.08.23 ~ 2023.09.03
 
-First, run the development server:
+## 사용 스택 :
+- Frontend-end : HTML, CSS, Next.JS
+- Back-end & AI Model : Python
+- UI/Ux Design : Figma
+- Etc : Open AI
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## 사용 툴 : 
+- Github, Swit, Notion, Figma, Adobe Photoshop, Adobe Illistrator, vsCode, 
+- Etc : Google Meet
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## mvp 
+- mvp 주소 : http://storyzer.kr/
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### - 홈화면 & 서비스 소개 - 랜딩 페이지
+![image-20201126204215664](README.assets/home_1.png)
+![image-20201126204215664](README.assets/home_2.png)
 
-## Learn More
+### - 로그인
+![image-20201126204215664](README.assets/login.png)
 
-To learn more about Next.js, take a look at the following resources:
+### - 분석하기 - 기본정보 작성, 장르 최대 3가지 선택, 연령대 선택, 런타임 작성, 줄거리 작성
+![image-20201126204215664](README.assets/analyze.png)
+![image-20201126204215664](README.assets/analyze_basicInfo.png)
+![image-20201126204215664](README.assets/analyze_genre.png)
+![image-20201126204215664](README.assets/analyze_age.png)
+![image-20201126204215664](README.assets/analyze_runTime.png)
+![image-20201126204215664](README.assets/analyze_scenario.png)
+![image-20201126204215664](README.assets/analyze_loading.png)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### - 분석 결과 - 줄거리 키워드, 예상 평점, 예상 수익
+![image-20201126204215664](README.assets/result_keyword.png)
+![image-20201126204215664](README.assets/result_vote.png)
+![image-20201126204215664](README.assets/result_revenue.png)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+---
