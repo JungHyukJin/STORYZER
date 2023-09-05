@@ -5,10 +5,15 @@
 ## 개발 기간 :
 - 2023.08.23 ~ 2023.09.03
 
+## 참여 인원 :
+- UI/UX Design : 1명
+- Frontend-end : 1명
+- Back-end & AI Model : 2명
+
 ## 사용 스택 :
+- UI/UX Design : Figma
 - Frontend-end : HTML, CSS, Next.JS
 - Back-end & AI Model : Python
-- UI/Ux Design : Figma
 - Etc : Open AI
 
 ## 사용 툴 : 
@@ -38,7 +43,9 @@
 
 ### - 분석 결과 - 줄거리 키워드, 예상 평점, 예상 수익
 ![image-20201126204215664](README.assets/result_keyword.png)
-![image-20201126204215664](README.assets/result_vote.png)
+
+![image-20201126204215664](README.assets/result_vote.png) 
+
 ![image-20201126204215664](README.assets/result_revenue.png)
 
 ---
